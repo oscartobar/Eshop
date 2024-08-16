@@ -1,14 +1,14 @@
 name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
-#on: [push, workflow_dispatch]
+on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-otr
+  RESOURCE-GROUP: misrecursos
   LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: bf951243-b465-4cc4-ae2f-fb09dcb03135
+  SUBSCRIPTION-ID: 1bc410e4-1ea1-44e9-8f7f-8c8784037354
   WEBAPP-NAME: eshoponweb-webapp-otr
 
 
